@@ -1,0 +1,115 @@
+   @media only screen and (max-width: 1080px),
+   only screen and (max-device-width:1080px) {
+   	html,
+   	body {
+   		font-size: 288px;
+   	}
+   }
+   
+   @media only screen and (max-width: 960px),
+   only screen and (max-device-width:960px) {
+   	html,
+   	body {
+   		font-size: 256px;
+   	}
+   }
+   
+   @media only screen and (max-width: 800px),
+   only screen and (max-device-width:800px) {
+   	html,
+   	body {
+   		font-size: 213.5px;
+   	}
+   }
+   
+   @media only screen and (max-width: 720px),
+   only screen and (max-device-width:720px) {
+   	html,
+   	body {
+   		font-size: 192px;
+   	}
+   }
+   
+   @media only screen and (max-width: 640px),
+   only screen and (max-device-width:640px) {
+   	html,
+   	body {
+   		font-size: 170px;
+   	}
+   }
+   
+   @media only screen and (max-width: 600px),
+   only screen and (max-device-width:600px) {
+   	html,
+   	body {
+   		font-size: 160px;
+   	}
+   }
+   
+   @media only screen and (max-width: 540px),
+   only screen and (max-device-width:540px) {
+   	html,
+   	body {
+   		font-size: 143.5px;
+   	}
+   }
+   
+   @media only screen and (max-width: 480px),
+   only screen and (max-device-width:480px) {
+   	html,
+   	body {
+   		font-size: 128px;
+   	}
+   }
+   
+   @media only screen and (max-width: 414px),
+   only screen and (max-device-width:414px) {
+   	html,
+   	body {
+   		font-size: 110.5px;
+   	}
+   }
+   
+   @media only screen and (max-width: 400px),
+   only screen and (max-device-width:400px) {
+   	html,
+   	body {
+   		font-size: 106.5px;
+   	}
+   }
+   
+   @media only screen and (max-width: 375px),
+   only screen and (max-device-width:375px) {
+   	html,
+   	body {
+   		font-size: 100px;
+   	}
+   }
+   
+   @media only screen and (max-width: 360px),
+   only screen and (max-device-width:360px) {
+   	html,
+   	body {
+   		font-size: 95.6px;
+   	}
+   }
+   
+   @media only screen and (max-width: 320px),
+   only screen and (max-device-width:320px) {
+   	html,
+   	body {
+   		font-size: 86px;
+   	}
+   }
+   
+   @media only screen and (max-width: 240px),
+   only screen and (max-device-width:240px) {
+   	html,
+   	body {
+   		font-size: 64px;
+   	}
+   }
+   
+   [v-cloak] {
+   	display: none;
+   }

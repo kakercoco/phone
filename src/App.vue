@@ -12,8 +12,10 @@ export default {
 
 <style lang="less">
 @import '~vux/src/styles/reset.less';
+@import '../static/css/media-100.css';
 
 body {
   background-color: #fbf9fe;
+  font-size: 0.14rem;
 }
 </style>
