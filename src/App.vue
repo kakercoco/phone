@@ -1,6 +1,6 @@
 <template>
 	<div id="app">
-		<router-view></router-view>
+		<router-view v-wechat-title="$route.meta.title" img-set="../src/assets/logo.png"></router-view>
 	</div>
 </template>
 
@@ -93,5 +93,8 @@
 	
 	.c-999 {
 		color: #999;
+	}
+	.c-fff{
+		color: #fff;
 	}
 </style>

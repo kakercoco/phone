@@ -23,11 +23,11 @@
 		<div class="hot">
 			<h4>近期热门</h4>
 			<ul>
-				<li v-for="item in hot_list">
+				<router-link tag="li" v-for="(item,index) in hot_list" :key="index" :to="{path:'/buy/2'}">
 					<img :src="item.url" />
 					<p>{{item.detail}}</p>
 					<p><span>￥{{item.price}}</span></p>
-				</li>
+				</router-link>
 			</ul>
 		</div>
 		<div class="like-store bg-fff">
@@ -50,9 +50,9 @@
 		<div class="footer">
 			<span><img src="https://hqwell.net/images/home.png"/></span>
 			<ul>
-				<li>快速定制</li>
-				<li>我的订单</li>
-				<li>个人中心</li>
+				<router-link :to="{path:'/self'}" tag="li">快速定制</router-link>
+				<router-link :to="{path:'/self'}" tag="li">我的订单</router-link>
+				<router-link :to="{path:'/self'}" tag="li" >个人中心</router-link>
 			</ul>
 		</div>
 	</div>
